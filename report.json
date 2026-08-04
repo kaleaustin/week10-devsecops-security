@@ -1,0 +1,23 @@
+[
+ {
+  "RuleID": "generic-api-key",
+  "Description": "Detected a Generic API Key, potentially exposing access to various services and sensitive operations.",
+  "StartLine": 2,
+  "EndLine": 2,
+  "StartColumn": 2,
+  "EndColumn": 26,
+  "Match": "API_KEY=sk_live_123456789",
+  "Secret": "sk_live_123456789",
+  "File": ".env",
+  "SymlinkFile": "",
+  "Commit": "3082a21ac3d408e75016e8e422b644ed59a2f926",
+  "Link": "https://github.com/Kaleaustin/week10-devsecops-security/blob/3082a21ac3d408e75016e8e422b644ed59a2f926/.env#L2",
+  "Entropy": 3.9698157,
+  "Author": "Kaleaustin",
+  "Email": "your-email@example.com",
+  "Date": "2026-08-04T16:33:29Z",
+  "Message": "Completed Week 10 DevSecOps Assignment",
+  "Tags": [],
+  "Fingerprint": "3082a21ac3d408e75016e8e422b644ed59a2f926:.env:generic-api-key:2"
+ }
+]
